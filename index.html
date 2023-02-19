@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navBar.css">
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top px-5">
+    <div class="container-fluid ">
+      <a class="navbar-brand text-info" href="#">TRAVELO</a>
+      <button class="navbar-toggler bg-light-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-5  ">
+          <li class="nav-item mx-5 text-info ">
+            <a class="nav-link underLine" href="#">
+              Home</a>
+          </li>
+          <li class="nav-item mx-5">
+            <a class="nav-link underLine" href="#firstSect">Explore</a>
+          </li>
+          <li class="nav-item mx-5">
+            <a class="nav-link underLine" href="#trip">trip</a>
+          </li>
+          <li class="nav-item mx-5">
+            <a class="nav-link underLine" href="#footer"> About</a>
+          </li>
+        </ul>
+        <!-- <span class="navbar-text">
+          <a href=""><i class="fa-solid fa-user pe-5"></i><a >
+            
+        </span> -->
+      </div>
+      
+    </div>
+
+  </nav>
+
+  
+
+  <div>
+    <form action="" id="searchForm">
+      <input type="search" required>
+      <i class="fa fa-search searchBox"></i>
+
+    </form>
+  </div>
+
+  <header>
+      
+
+    <!-- new -->
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade seven_crsl_Main_div" data-bs-ride="carousel">
+      
+      <div class="carousel-inner ">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="images/header/pexels-victor-lavaud-3358507.jpg" class="d-block w-100" alt="Petra - Jordan">
+        </div>
+        <div class="carousel-item" data-bs-interval="1000">
+          <img src="images/header/pexels-boris-ulzibat-3262994.jpg" class="d-block w-100" alt="Great wall of china">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/header/pexels-davi-pimentel-2064827.jpg" class="d-block w-100" alt="Colosseum - Italy">
+        </div>
+        <div class="carousel-item " data-bs-interval="3000">
+          <img src="images/header/pexels-dick-hoskins-5188293.jpg" class="d-block w-100" alt="Chichen Itza - Mexico">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/header/pexels-errin-casano-2356045.jpg" class="d-block w-100" alt="Machu pichu -peru">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="images/header/pexels-luan-gonçalves-13911606.jpg" class="d-block w-100" alt="Christ the Redeemer - Brazil">
+        </div>
+        <div class="carousel-item" data-bs-interval="6000">
+          <img src="images/header/pexels-abdullah-ghatasheh-1631665.jpg" class="d-block w-100" alt="Taj mahal -india">
+        </div>
+      </div>
+      <button class="carousel-control-prev prevnext" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev" >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next prevnext" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      
+      
+    </div>
+
+
+
+    
+
+
+  </header>
+
+
+    <section id="firstSect" class="mt-5">
+      <!-- images grid -->
+      <div class="row p-3 GridImg">
+
+        <h1 class="text-center font-italic">Go, Fly, Roam, Travel,.</h1>
+
+        <div class="col-md-3 mt-2">
+          <a target="_blank" href="twelvegrid/wildlife/index.html">
+            <img 
+                  src="images/8Img/wildelife&nature.webp"
+                  class="d-block w-100 mt-2"
+                  alt="camp"
+                />
+              </a >
+              <h5>Wildlife & nature</h5>
+        </div>
+        <div class="col-md-3 mt-2">
+          <a target="_blank" href="twelvegrid/budget/index.html">
+            <img 
+                  src="images/8Img/budgettravel.webp"
+                  class="d-block w-100 mt-2"
+                  alt="travel"
+                />
+          </a >
+          <h5>Budget travel</h5>
+        </div>
+        <div class="col-md-3 mt-2">
+          <a target="_blank" href="twelvegrid/island/index.html">
+            <img 
+                  src="images/8Img/beach&island.webp"
+                  class="d-block w-100 mt-2"
+                  alt="beach"
+                />
+          </a >
+          <h5>Beaches & Island</h5>
+        </div>
+        <div class="col-md-3 mt-2">
+          <a target="_blank" href="twelvegrid/solo/index.html">
+            <img 
+                  src="images/8Img/soloTrip.webp"
+                  class="d-block w-100 mt-2"
+                  alt="solo travel"
+                />
+          </a >
+          <h5>Solo travel</h5>
+        </div>
+        
+        <div class="col-md-3 mt-2">
+          <a target="_blank" href="twelvegrid/adventure/index.html">
+            <img 
+                  src="images/8Img/adventureTravel.webp"
+                  class="d-block w-100 mt-2 "
+                  alt="adventure"
+                />
+          </a >
+          <h5>Adventures</h5>
+        </div>
+        
+        <div class="col-md-3 mt-2">
+          <a target="_blank" href="twelvegrid/relax/index.html">
+            <img 
+                  src="images/8Img/relaxtoTravel.webp"
+                  class="d-block w-100 mt-2"
+                  alt="relax"
+                />
+          </a >
+          <h5>Relax & retreat</h5>
+        </div>
+        <div class="col-md-3 mt-2">
+          <a target="_blank" href="twelvegrid/family/index.html">
+            <img 
+                  src="images/8Img/familyTravel.webp"
+                  class="d-block w-100 mt-2 "
+                  alt="family"
+                />
+          </a >
+          <h5>Family friendly</h5>
+        </div>
+        <div class="col-md-3 mt-2">
+          <a target="_blank" href="twelvegrid/camp/index.html">
+            <img 
+                  src="images/8Img/ccamp.webp"
+                  class="d-block w-100 mt-2 "
+                  alt="camp"
+                />
+          </a >
+          <h5>Camp</h5>
+        </div>
+      </div>
+    </section>
+
+
+    
+
+
+  
+
+  <!--Plan your dream trip- card carouel section -->
+
+  <section id="trip" class="pt-5 pb-3 bg-dark">
+    <div class="px-5">
+      <div class="row">
+        <div class="text-center text-light">
+          <h1 class="mb-3">Plan your dream trip</h1>
+          <p>Explore itineraries based on what you like to see & do</p>
+          
+        </div>
+
+        <div class="col-12">
+          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+  
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+  
+                  <div class="col-md-4 mb-3">
+                    <div class="card dream_card" style="height: 300px;" >
+                      <img style="height: 100%;"  style="height: 100%;"  class="img-fluid" alt="100%x280" src="images/brandenburg-gate-monument-berlin-city-germany_105939-10.webp">
+                      <div class="card-img-overlay dream_text text-light">
+                        <h4 class="card-title">Berlin</h4>
+                        <p>Capital of Germany</p>
+                        <a id="togotext" target="_blank" href="https://www.google.co.in/maps/place/Berlin,+Germany/@52.5065116,13.1438575,10z/data=!3m1!4b1!4m6!3m5!1s0x47a84e373f035901:0x42120465b5e3b70!8m2!3d52.5200066!4d13.404954!16zL20vMDE1NnE">
+                        <button type="button" class="btn btn-outline-light togo">
+                          <span id="forward-arrow"><i class="fa-solid fa-forward"></i></span>
+                         Let's Go
+                        </button>
+                      </a>
+                      </div>
+  
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card dream_card" style="height: 300px;">
+                      <img style="height: 100%;"  class="img-fluid" alt="100%x280" src="images/wallpaperflare.com_wallpaper.jpg">
+                      <div class="card-img-overlay dream_text text-light">
+                        <h4 class="card-title">Rio de janeiro</h4>
+                        <p>Capital of Brazil</p>
+                        <a target="_blank" id="togotext" href="https://www.google.co.in/maps/place/Rio+de+Janeiro,+State+of+Rio+de+Janeiro,+Brazil/@-22.9138838,-43.7268771,10z/data=!3m1!4b1!4m6!3m5!1s0x9bde559108a05b:0x50dc426c672fd24e!8m2!3d-22.9068467!4d-43.1728965!16zL20vMDZnbXI">
+                        <button type="button" class="btn btn-outline-light togo">
+                          <span id="forward-arrow"><i class="fa-solid fa-forward"></i></span>
+                         Let's Go
+                        </button>
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card dream_card" style="height: 300px;">
+                      <img style="height: 100%;"  class="img-fluid" alt="100%x280" src="images/wallpaperflare.com_wallpaper (3).jpg">
+                      <div class="card-img-overlay dream_text text-light">
+                        <h4 class="card-title">Denver</h4>
+                        <p>Capital of colorado,USA</p>
+                        <a target="_blank" id="togotext" href="https://www.google.co.in/maps/place/Denver,+CO,+USA/@39.7640004,-105.1359963,10z/data=!3m1!4b1!4m6!3m5!1s0x876b80aa231f17cf:0x118ef4f8278a36d6!8m2!3d39.7392358!4d-104.990251!16zL20vMDJjbDE">
+                        <button type="button" class="btn btn-outline-light togo">
+                          <span id="forward-arrow"><i class="fa-solid fa-forward"></i></span>
+                          Let's Go
+                        </button>
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+  
+                  <div class="col-md-4 mb-3">
+                    <div class="card dream_card" style="height: 300px;">
+                      <img style="height: 100%;"  class="img-fluid" alt="100%x280" src="images/wallpaperflare.com_wallpaper (1).jpg">
+                      <div class="card-img-overlay dream_text text-light">
+                        <h4 class="card-title">Helsinki</h4>
+                        <p>Capital of Finland</p>
+                        <a target="_blank" id="togotext" href="https://www.google.co.in/maps/place/Helsinki,+Finland/@60.1089738,24.4568935,9z/data=!3m1!4b1!4m6!3m5!1s0x46920bc796210691:0xcd4ebd843be2f763!8m2!3d60.1698557!4d24.9383791!16zL20vMDNraG4">
+                        <button type="button" class="btn btn-outline-light togo">
+                          <span id="forward-arrow"><i class="fa-solid fa-forward"></i></span>
+                          Let's Go
+                        </button>
+                      </a>
+                      </div>
+  
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card dream_card" style="height: 300px;">
+                      <img style="height: 100%;"  class="img-fluid" alt="100%x280" src="images/pexels-antony-trivet-6143297.jpg">
+                      <div class="card-img-overlay dream_text text-light">
+                        <h4 class="card-title">Nairobi</h4>
+                        <p>Capital of Kenya</p>
+                        <a target="_blank" id="togotext" href="https://www.google.co.in/maps/place/Nairobi,+Kenya/@-1.303205,36.7069624,11z/data=!3m1!4b1!4m6!3m5!1s0x182f1172d84d49a7:0xf7cf0254b297924c!8m2!3d-1.2920659!4d36.8219462!16zL20vMDVkNDk">
+                        <button type="button" class="btn btn-outline-light togo">
+                          <span id="forward-arrow"><i class="fa-solid fa-forward"></i></span>
+                          Let's Go
+                        </button>
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card dream_card" style="height: 300px;">
+                      <img style="height: 100%;"  class="img-fluid" alt="100%x280" src="images/wallpaperflare.com_wallpaper (2).jpg">
+                      <div class="card-img-overlay dream_text text-light">
+                        <h4 class="card-title">Moscow</h4>
+                        <p>Capital of Russia</p>
+                        <a target="_blank" id="togotext" href="https://www.google.co.in/maps/place/Moscow,+Russia/@55.5768863,36.2616923,8z/data=!3m1!4b1!4m6!3m5!1s0x46b54afc73d4b0c9:0x3d44d6cc5757cf4c!8m2!3d55.755826!4d37.6172999!16zL20vMDRzd2Q">
+                        <button type="button" class="btn btn-outline-light togo">
+                          <span id="forward-arrow"><i class="fa-solid fa-forward"></i></span>
+                          Let's Go
+                        </button>
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+  
+                  <div class="col-md-4 mb-3">
+                    <div class="card dream_card" style="height: 300px;">
+                      <img style="height: 100%;"  class="img-fluid" alt="100%x280" src="images/wallpaperflare.com_wallpaper (4).jpg">
+                      <div class="card-img-overlay dream_text text-light">
+                        <h4 class="card-title">Oslo</h4>
+                        <p>Capital of Norway</p>
+                        <a target="_blank" id="togotext" href="https://www.google.co.in/maps/place/Oslo,+Norway/@59.8937803,10.64469,11z/data=!3m1!4b1!4m6!3m5!1s0x46416e61f267f039:0x7e92605fd3231e9a!8m2!3d59.9138688!4d10.7522454!16zL20vMDVsNjQ">
+                        <button type="button" class="btn btn-outline-light togo">
+                          <span id="forward-arrow"><i class="fa-solid fa-forward"></i></span>
+                          Let's Go
+                        </button>
+                      </a>
+                      </div>
+  
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card dream_card" style="height: 300px;">
+                      <img style="height: 100%;"  class="img-fluid" alt="100%x280" src="images/wallpaperflare.com_wallpaper (5).jpg">
+                      <div class="card-img-overlay dream_text text-light">
+                        <h4 class="card-title">Tokyo</h4>
+                        <p>Capital of Japan</p>
+                        <a target="_blank" id="togotext" href="https://www.google.co.in/maps/place/Tokyo,+Japan/@35.5040261,138.6456624,8z/data=!3m1!4b1!4m6!3m5!1s0x605d1b87f02e57e7:0x2e01618b22571b89!8m2!3d35.6761919!4d139.6503106!16zL20vMDdkZms">
+                        <button type="button" class="btn btn-outline-light togo">
+                          <span id="forward-arrow"><i class="fa-solid fa-forward"></i></span>
+                          Let's Go
+                        </button>
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card dream_card" style="height: 300px;">
+                      <img style="height: 100%;"  class="img-fluid" alt="100%x280" src="images/wallpaperflare.com_wallpaper (6).jpg">
+                      <div class="card-img-overlay dream_text text-light ">
+                        <h4 class="card-title">Spain</h4>
+                        <p>Country in Europe</p>
+                        <a target="_blank" id="togotext" href="https://www.google.co.in/maps/place/Spain/@39.8568839,-12.7392123,5z/data=!3m1!4b1!4m6!3m5!1s0xc42e3783261bc8b:0xa6ec2c940768a3ec!8m2!3d40.463667!4d-3.74922!16zL20vMDZta2o">
+                        <button type="button" class="btn btn-outline-light togo">
+                          <span id="forward-arrow"><i class="fa-solid fa-forward"></i></span>
+                          Let's Go
+                        </button>
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- next-preview-button -->
+        <div class="text-center">
+          <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left"></i>
+          </a>
+          <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+
+
+  
+  <footer class="bg-black mt-4" id="footer">
+      <div class="container">
+        <div class="row ">
+          <div class="col-md mt-4">
+            <div class="mb-4 ftco">
+              <h5 class="ftco-heading-2 mb-4">Travelo</h5>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate fadeInUp ftco-animated d-inline-block">
+                  <a href="#"><span class="fa-brands fa-2xl fa-twitter-square"></span></a>
+                </li>
+                <li class="ftco-animate fadeInUp ftco-animated d-inline-block">
+                  <a href="#"><span class="fa-brands fa-2xl fa-facebook-square"></span></a>
+                </li>
+                <li class="ftco-animate fadeInUp ftco-animated d-inline-block">
+                  <a href="#"><span class="fa-brands fa-2xl fa-instagram-square"></span></a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="col-md mt-4 ftco">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h5 class="ftco-heading-2 ">Information</h5>
+              <ul class="list-unstyled">
+              <li><a href="#" class="py-2 d-block underLine">About</a></li>
+              <li><a href="#" class="py-2 d-block underLine">Service</a></li>
+              <li><a href="#" class="py-2 d-block underLine">Terms and Conditions</a></li>
+              <li><a href="#" class="py-2 d-block underLine">Become a partner</a></li>
+              <li><a href="#" class="py-2 d-block underLine">Best Price Guarantee</a></li>
+              <li><a href="#" class="py-2 d-block underLine">Privacy and Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md mt-4 ftco">
+            <div class="ftco-footer-widget mb-4">
+              <h5 class="ftco-heading-2">Customer Support</h5>
+              <ul class="list-unstyled">
+              <li><a href="#" class="py-2 d-block underLine">FAQ</a></li>
+              <li><a href="#" class="py-2 d-block underLine">Payment Option</a></li>
+              <li><a href="#" class="py-2 d-block underLine">Booking Tips</a></li>
+              <li><a href="#" class="py-2 d-block underLine">How it works</a></li>
+              <li><a href="#" class="py-2 d-block underLine">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md mt-4 ftco">
+            <div class="ftco-footer-widget mb-4">
+              <h5 class="ftco-heading-2">Have a Questions?</h5>
+              <div class="block-23 mb-3">
+              <ul>
+              <li>
+                <a href="#"><span class="fa fa-phone"></span><span class="text">+2 392 3929 210</span></a>
+              </li>
+              <li class="">
+                <a href="#"><span class="fa fa-envelope "></span><span class="text ">travel@gmail.com</span></a>
+              </li>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- card carousel link -->
+
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>     
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+
+
+
+    <script>
+      let nav = document.querySelector("nav");
+      window.addEventListener("scroll", function () {
+        if (window.pageYOffset > 600) {
+          nav.classList.add("bg-dark", "shadow");
+          nav.classList.remove("bg-transparent");
+        } else {
+          nav.classList.remove("bg-light", "shadow");
+          nav.classList.add("bg-transparent");
+        }
+      });
+
+    </script>
+
+
+
+  </body>
+
+  <!-- bootstrap js -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+</html>

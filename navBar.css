@@ -1,0 +1,49 @@
+#navbarText ul li a,.fa-user {
+  color: rgb(218, 215, 215);
+  font-weight: 500;
+}
+
+/*hover- underline */
+.underLine{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 14px;
+}
+
+.underLine::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background .5s ease;
+}
+.underLine::after{
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: #3366FF;
+    transition: width .5s ease;
+}
+.underLine:hover::before{
+    width: 100%;
+    background: #3366FF;
+    transition: width .5s ease;
+}
+.underLine:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
+
+
+/* login page  */
+
+
